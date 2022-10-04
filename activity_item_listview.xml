@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_listview"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="150dp"
+       android:orientation="horizontal">
+       <ImageView
+           android:id="@+id/imgv_profile"
+           android:layout_weight="1"
+           android:src="@drawable/cat2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+       </ImageView>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/var1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               android:layout_weight="1"
+               android:text="종류 : 고양이">
+
+           </TextView>
+       <TextView
+           android:id="@+id/var2"
+           android:layout_margin="20dp"
+           android:layout_weight="1"
+           android:text="이름 : 최인혁"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </TextView>
+       </LinearLayout>
+   </LinearLayout>
+
+
+
+
+</LinearLayout>
